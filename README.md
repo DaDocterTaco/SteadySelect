@@ -6,7 +6,7 @@ SteadySelect is a Chrome extension that turns small webpage buttons and links in
 
 Built solo for [Taskforge 2026](https://taskforge.devpost.com/) with assistance from OpenAI Codex. **Working prototype · version 0.1.5 · no account, backend, or API key.**
 
-[Download source ZIP](https://github.com/DaDocterTaco/SteadySelect/archive/refs/heads/main.zip) · [Installation & quick test](#install-and-try-it-in-chrome) · [How it works](docs/ARCHITECTURE.md) · [Testing evidence](docs/TESTING.md)
+[Download source ZIP](https://github.com/DaDocterTaco/SteadySelect/archive/refs/heads/main.zip) · [Public test page](https://dadoctertaco.github.io/SteadySelect/) · [Installation & quick test](#install-and-try-it-in-chrome) · [How it works](docs/ARCHITECTURE.md) · [Testing evidence](docs/TESTING.md)
 
 ![SteadySelect enlarges Start lesson while outlining the original button](docs/images/enlarge.png)
 
@@ -27,7 +27,9 @@ It provides another way to interact with existing pages. It does not move the op
 
 **No npm install or build step is needed to use the extension.** This is an unpacked prototype, not a Chrome Web Store listing. Enable it again after a full page navigation or reload.
 
-For a predictable webpage to test after installing, use the repository's `demo/index.html`. Local files require Chrome's **Allow access to file URLs** setting; the built-in **Try it safely** walkthrough does not. You can also serve the repository with `python -m http.server 8000` and visit `http://localhost:8000/demo/`.
+After installing, open the [public test page](https://dadoctertaco.github.io/SteadySelect/) and enable SteadySelect there. Its lesson buttons only update sample messages. The webpage alone does not run the extension; installation is required.
+
+For local testing, use the repository's `demo/index.html`. Local files require Chrome's **Allow access to file URLs** setting; the built-in **Try it safely** walkthrough does not. You can also serve the repository with `python -m http.server 8000` and visit `http://localhost:8000/demo/`.
 
 ## The core interaction
 

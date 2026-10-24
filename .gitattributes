@@ -7,3 +7,4 @@
 *.json text eol=lf
 *.png binary
 extension/** -text
+docs/testing/*.json -text

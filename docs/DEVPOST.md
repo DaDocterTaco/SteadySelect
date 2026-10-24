@@ -43,6 +43,8 @@ Making a button larger is only part of the problem. Predictable selection, under
 
 Download or clone the linked GitHub repository. In Chrome, open chrome://extensions, enable Developer mode, choose Load unpacked, and select the repository's **extension** folder. No build step, account or API key is needed. Open SteadySelect's popup and choose **Try it safely** for a guided walkthrough, then enable it on an ordinary webpage. The README includes installation, shortcuts, architecture, test commands and known limits.
 
+The [public test page](https://dadoctertaco.github.io/SteadySelect/) provides harmless lesson buttons after installation. It includes a download link and setup steps. The webpage alone does not enable the extension's assistance.
+
 ## Limitations and what is next
 
 This is an early unpacked prototype, not a Chrome Web Store release. Chrome internal pages, embedded frames, closed shadow roots, canvas controls and arbitrary unlabeled widgets are unsupported. Some sites reject programmatic clicks. It does not move the native mouse pointer, magnify arbitrary text or replace a screen reader.
