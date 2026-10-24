@@ -1,0 +1,37 @@
+:root { color-scheme:light; --scale:1; --height:52px; --ink:#172b3c; --brand:#15665d; --line:#adbdc5; }
+* { box-sizing:border-box; }
+body { margin:0; background:#f2f6f5; color:var(--ink); font:calc(18px * var(--scale))/1.5 system-ui,sans-serif; }
+.page-header,main,footer { width:min(1120px,calc(100% - 48px)); margin:0 auto; }
+.page-header { display:flex; align-items:flex-start; justify-content:space-between; gap:24px; padding:32px 0 20px; }
+.page-header > div { max-width:760px; }
+h1 { font-size:calc(36px * var(--scale)); margin:0 0 12px; line-height:1.2; }
+h2 { font-size:calc(24px * var(--scale)); line-height:1.3; margin:0 0 14px; }
+h3 { font-size:18px; margin:0 0 4px; }
+p { margin:0 0 16px; }
+.eyebrow { color:var(--brand); font-weight:700; font-size:calc(14px * var(--scale)); margin:0 0 8px; }
+main { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.1fr); gap:24px; align-items:start; }
+.guide-card,.sample-page { border:1px solid var(--line); border-radius:16px; background:white; padding:24px; }
+.progress { list-style:none; padding:0; margin:0 0 24px; display:grid; gap:8px; font-size:calc(15px * var(--scale)); }
+.progress li { border-left:4px solid #d7e2df; padding:6px 12px; }
+.progress [aria-current="step"] { border-color:var(--brand); background:#e9f5ef; font-weight:700; }
+.progress .done { color:var(--brand); }
+#lesson { min-height:180px; }
+button { font:inherit; min-height:var(--height); padding:12px 18px; border:1px solid var(--line); border-radius:9px; background:white; color:var(--ink); cursor:pointer; }
+button:hover:not(:disabled) { background:#e9f5ef; }
+button:focus-visible { outline:3px solid var(--brand); outline-offset:4px; }
+button:disabled { opacity:.6; cursor:wait; }
+.primary { background:var(--brand); color:white; font-weight:650; width:100%; }
+.primary:hover:not(:disabled) { background:#104f48; }
+#skip { flex-shrink:0; }
+.help,footer { font-size:calc(15px * var(--scale)); color:#465a6b; }
+.help { margin:16px 0 0; }
+.feedback { min-height:3em; margin:16px 0 0; color:var(--brand); font-weight:600; }
+.sample-page { min-height:420px; }
+.sample-page article { padding:24px 0; border-bottom:1px solid #d7e2df; }
+.sample-page article p { font-size:15px; color:#465a6b; margin-bottom:14px; }
+.sample-button { min-height:28px; padding:3px 9px; font-size:14px; border-radius:4px; }
+.sample-result { margin:24px 0 0; font-size:16px; color:var(--brand); min-height:3em; }
+footer { padding:24px 0 32px; }
+footer p { margin-bottom:8px; }
+@media(max-width:700px) { .page-header,main,footer { width:calc(100% - 24px); } .page-header { flex-wrap:wrap; padding-top:20px; } main { grid-template-columns:1fr; } .guide-card,.sample-page { padding:18px; } #lesson { min-height:0; } }
+@media(prefers-reduced-motion:reduce) { * { scroll-behavior:auto!important; } }

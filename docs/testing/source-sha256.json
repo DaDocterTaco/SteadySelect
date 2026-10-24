@@ -1,0 +1,12 @@
+{
+  "extension/content.js": "621c70524f57b6a0a6a519146617ff4ae7b7a5215f62b56ce00113d16d5b17f1",
+  "extension/core.js": "2bc24db9c2942cdd1ea3ab6277e3094d335c81f8a44c5c90d53cf3b25f19c1c0",
+  "extension/manifest.json": "880e2aa9563fd5e538ed416ad80c55a4f26e9427dfe9b639e3dea8c726740205",
+  "extension/popup.css": "8ba5085e6cd2093ede66eb3286091460d4a5ad84202911c9b1861cdb87bb71fe",
+  "extension/popup.html": "7abb592592c5636afed6756bf042aa8ec894c8206626f92d4ffe88fd91c1b47a",
+  "extension/popup.js": "b0018e5e0775acc7eeb09e953427e9cc81d138271dbfe72cc44e37880f5ac7af",
+  "extension/practice.css": "9e43d506815a2c1eb874d817747864b2669d39655d682c65b66ecc3c70e02449",
+  "extension/practice.html": "3c4720e97de7700b5b156b82bab842005e958bdbfa211b8941eb97c98a3c2519",
+  "extension/practice.js": "e5e39c08129bf82ea2af5ca93058b70a41330c3549750322b50bf40e5e5e8bb4",
+  "extension/worker.js": "2a0c3603b2dd7308798609bb4fe97eee9ad628f64b47e0c4ed8f1bfb931a369a"
+}

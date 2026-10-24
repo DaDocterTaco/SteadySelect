@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Try SteadySelect safely</title><link rel="stylesheet" href="practice.css"></head>
+<body>
+  <header class="page-header"><div><p class="eyebrow">SteadySelect · Practice</p><h1>Try it safely</h1><p>Learn with sample buttons. Nothing here sends a message, makes a purchase, or changes another website.</p></div><button id="skip">Skip &amp; close</button></header>
+  <main>
+    <section class="guide-card" aria-labelledby="step-title">
+      <ol class="progress" aria-label="Practice progress"><li id="progress-1" aria-current="step">1. See the outline</li><li id="progress-2">2. Enlarge a button</li><li id="progress-3">3. Find a button</li></ol>
+      <div id="lesson" aria-live="polite" aria-atomic="true"><p class="eyebrow" id="step-count">Step 1 of 3</p><h2 id="step-title">See which button is selected</h2><p id="instruction">Move your pointer close to Start lesson in the sample webpage. Watch for the green outline.</p></div>
+      <button id="lesson-action" class="primary" disabled>Getting practice ready…</button>
+      <p class="help" id="keyboard-help">You can complete every step with the large buttons, too.</p>
+      <p id="feedback" class="feedback" role="status"></p>
+    </section>
+    <section id="practice-area" class="sample-page" aria-labelledby="sample-title">
+      <p class="eyebrow">Sample webpage</p><h2 id="sample-title">My learning desk</h2>
+      <article><div><h3>A five-minute lesson</h3><p>Getting started with your day</p></div><button id="practice-start" class="sample-button">Start lesson</button></article>
+      <article><div><h3>Remember a break</h3><p>A sample reminder for this practice</p></div><button id="practice-save" class="sample-button">Save reminder</button></article>
+      <p class="sample-result" id="sample-result" role="status">These sample buttons only change this message.</p>
+    </section>
+  </main>
+  <footer><p>Practice turns on outlines and letter shortcuts in this tab. Your saved preferences stay unchanged.</p><p id="version"></p><button id="restart">Start practice again</button></footer>
+  <script src="core.js"></script><script src="content.js"></script><script src="practice.js"></script>
+</body></html>

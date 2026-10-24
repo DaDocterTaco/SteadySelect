@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-24",
+  "version": "0.1.5",
+  "browser": "User's existing Chrome, production unpacked installation",
+  "url": "https://developer.mozilla.org/en-US/",
+  "viewport": {"width": 935, "height": 834},
+  "observedPasses": [
+    "Injected host reports version 0.1.5 after user reload, webpage refresh and native Alt+Shift+S enable.",
+    "Collapse tools reduces the toolbar to one visible SteadySelect tools button, approximately 166 by 55 CSS pixels.",
+    "Expanding the toolbar restores keyboard focus to Enlarge nearby.",
+    "Move to other corner places the toolbar at left 16px without dragging and updates its destination hint.",
+    "K opens the correct English (US) card while the toolbar is collapsed; Escape cancels without opening the language menu.",
+    "L opens Find a button while collapsed and displays 17 on-screen choices.",
+    "Settings & help includes Try it safely; activating it opens the installed extension's practice.html tab.",
+    "The toolbar was restored to its original bottom-right expanded layout."
+  ],
+  "userVerified": {
+    "flow": "Show the outline for me, Enlarge Start lesson, activate Start lesson, Find a button, search Save reminder, activate result, Finish & close.",
+    "confirmation": "Practice complete appeared and Finish closed the tab",
+    "result": "passed"
+  },
+  "automatedChecks": {"local": 53, "ordinaryWebsites": 14, "w3cCustomButtons": 7, "total": 74},
+  "screenshots": ["usability/20-installed-compact-015.png", "usability/21-installed-toolbar-015.png"],
+  "failures": [],
+  "limitations": [
+    "Browser URL policy blocks automation of chrome-extension pages. The installed walkthrough completion is user-reported, not agent-observed; the same walkthrough was exercised automatically in isolated Chromium.",
+    "Toolbar layout persistence across reload was verified in isolated Chromium, not repeated in this installed-browser pass.",
+    "No intended-user accessibility study or universal site-compatibility claim."
+  ]
+}

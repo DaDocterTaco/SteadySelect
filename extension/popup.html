@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>SteadySelect</title><link rel="stylesheet" href="popup.css"></head>
+<body>
+  <header><h1>SteadySelect</h1><p class="intro">Make small buttons easier to use.</p></header>
+  <p id="status" role="status">Checking this page…</p>
+  <button id="enable" class="primary">Turn on for this page</button>
+  <div class="actions"><button id="near">Enlarge nearby</button><button id="list">Find a button</button></div>
+  <button id="help" class="quiet">Settings &amp; help on this page</button>
+  <button id="practice" class="quiet">Try it safely</button>
+  <section aria-labelledby="comfort-title"><h2 id="comfort-title">Make it comfortable</h2>
+    <label class="toggle"><input type="checkbox" id="live"><span>Highlight near my pointer<small>See which button will be enlarged.</small></span></label>
+    <label>Text size<select id="scale"><option value="1">Standard</option><option value="1.25">Large</option><option value="1.5">Extra large</option></select></label>
+    <label class="toggle"><input type="checkbox" id="large"><span>Extra-large buttons<small>More space to click comfortably.</small></span></label>
+    <label class="toggle"><input type="checkbox" id="single"><span id="single-label">Use K and L<small>Typing in text boxes stays normal.</small></span></label>
+    <p id="saved" role="status">Changes save automatically.</p>
+  </section>
+  <details><summary>How to use it</summary><ol><li>Point near a button on the webpage.</li><li>Choose <strong>Enlarge nearby</strong>. Check the outline and name.</li><li>Click the large button, or press Enter. Esc cancels.</li></ol><p class="help">You can also choose Find a button and search by name. Enable again after a page reload.</p></details>
+  <details><summary>Change shortcuts &amp; distance</summary>
+    <div class="actions"><label>Enlarge nearby key<input id="nearKey" maxlength="1" autocomplete="off"></label><label>Find a button key<input id="listKey" maxlength="1" autocomplete="off"></label></div>
+    <button id="save">Save shortcut keys</button>
+    <label>How far to look near the pointer<select id="radius"><option value="100">Close</option><option value="160">Standard</option><option value="240">Wide</option></select></label>
+    <p id="bindings"></p><button id="change">Change Chrome shortcuts</button>
+  </details>
+  <p class="help" id="version"></p>
+  <script src="core.js"></script><script src="popup.js"></script>
+</body></html>

@@ -1,0 +1,67 @@
+{
+  "testedAt": "2026-10-24T19:30:06.021Z",
+  "version": "0.1.5",
+  "browser": "Isolated Chromium 1248, unsigned-in temporary profile",
+  "sites": [
+    {
+      "name": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Main_Page"
+    },
+    {
+      "name": "github",
+      "url": "https://github.com/microsoft/vscode"
+    },
+    {
+      "name": "mdn",
+      "url": "https://developer.mozilla.org/en-US/"
+    }
+  ],
+  "siteCounts": [
+    {
+      "site": "wikipedia",
+      "count": "262 buttons and links on this page \u00b7 showing 20"
+    },
+    {
+      "site": "github",
+      "count": "275 buttons and links on this page \u00b7 showing 20"
+    },
+    {
+      "site": "mdn",
+      "count": "86 buttons and links on this page \u00b7 showing 20"
+    }
+  ],
+  "passed": [
+    "wikipedia: large searchable action list loads and Show more expands it",
+    "wikipedia: transparent native menu input is highlighted through its visible label; K cancels safely",
+    "wikipedia: enlarged Main menu button opens the actual menu; a focus-dismissed selection is cancelled safely",
+    "wikipedia: styled text-size radio activates through its visible Large label",
+    "wikipedia: Wikipedia search field accepts K and L without opening assistance",
+    "github: large searchable action list loads and Show more expands it",
+    "github: Code menu opens from the enlarged action",
+    "github: nested clone-method button changes the actual selected option",
+    "github: list search excludes its own assistance controls and finds a repository action once",
+    "mdn: large searchable action list loads and Show more expands it",
+    "mdn: HTML navigation stays open after clicking the enlarged button",
+    "mdn: shadow-root theme menu opens and its nested Dark option changes the site",
+    "mdn: L finds shadow controls once and resolves a component-scoped language label",
+    "mdn: shadow-root Search opens the actual search dialog; typing K/L is preserved"
+  ],
+  "failures": [],
+  "knownLimitations": [
+    "Wikipedia closes an already-open Main menu when assistance takes focus; the changed checkbox state invalidates the selection, so SteadySelect cancels it safely.",
+    "Some website controls focus a text field; use Alt+Shift+K/L or the on-page controls there because plain K/L intentionally preserve typing."
+  ],
+  "scope": "Actual public-page controls and handlers, with a test-only copy granted access to these three origins. Production remains activeTab/scripting/storage only. No user accounts, submissions, repository changes, print jobs, or purchases.",
+  "sourceSha256": {
+    "extension/content.js": "621c70524f57b6a0a6a519146617ff4ae7b7a5215f62b56ce00113d16d5b17f1",
+    "extension/core.js": "2bc24db9c2942cdd1ea3ab6277e3094d335c81f8a44c5c90d53cf3b25f19c1c0",
+    "extension/manifest.json": "880e2aa9563fd5e538ed416ad80c55a4f26e9427dfe9b639e3dea8c726740205",
+    "extension/popup.css": "8ba5085e6cd2093ede66eb3286091460d4a5ad84202911c9b1861cdb87bb71fe",
+    "extension/popup.html": "7abb592592c5636afed6756bf042aa8ec894c8206626f92d4ffe88fd91c1b47a",
+    "extension/popup.js": "b0018e5e0775acc7eeb09e953427e9cc81d138271dbfe72cc44e37880f5ac7af",
+    "extension/practice.css": "9e43d506815a2c1eb874d817747864b2669d39655d682c65b66ecc3c70e02449",
+    "extension/practice.html": "3c4720e97de7700b5b156b82bab842005e958bdbfa211b8941eb97c98a3c2519",
+    "extension/practice.js": "e5e39c08129bf82ea2af5ca93058b70a41330c3549750322b50bf40e5e5e8bb4",
+    "extension/worker.js": "2a0c3603b2dd7308798609bb4fe97eee9ad628f64b47e0c4ed8f1bfb931a369a"
+  }
+}

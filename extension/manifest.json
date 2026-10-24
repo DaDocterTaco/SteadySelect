@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "SteadySelect",
+  "version": "0.1.5",
+  "description": "Point approximately, preview the nearest control, and activate it through a larger action card or searchable list.",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "background": { "service_worker": "worker.js" },
+  "action": { "default_popup": "popup.html", "default_title": "SteadySelect" },
+  "commands": {
+    "near": { "suggested_key": { "default": "Alt+Shift+K" }, "description": "Open nearby actions" },
+    "list": { "suggested_key": { "default": "Alt+Shift+L" }, "description": "Open page actions" },
+    "toggle": { "suggested_key": { "default": "Alt+Shift+S" }, "description": "Enable or disable SteadySelect on this page" }
+  }
+}
