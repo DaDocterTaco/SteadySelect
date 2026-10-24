@@ -53,6 +53,16 @@ The selected action stays fixed while its panel is open. If the target changes, 
 
 Everything runs locally. There is no runtime AI, analytics, remote code, server, or account. Page labels and pointer coordinates stay in the current page's memory; only preferences are saved. Permissions are exactly **activeTab**, **scripting**, and **storage**, with no ongoing host permissions. [Privacy details](PRIVACY.md).
 
+## Prototype use notice
+
+SteadySelect is experimental software provided for evaluation. To the extent permitted by applicable law, it is provided "as is" without warranties of any kind. Correct operation, availability and compatibility with every website are not guaranteed. Nothing in this notice excludes rights or protections that cannot lawfully be excluded.
+
+SteadySelect is not intended to diagnose, treat, cure or prevent a medical condition. No clinical benefit or accessibility certification is claimed.
+
+Confirming an assisted action activates the original website control and can have the same consequences as clicking it directly. Read the selected label before confirming, especially before sending information, spending money or deleting data. Start with **Try it safely**; cancel or disable the extension if the selected target is wrong. The original website's terms and privacy practices still apply.
+
+See [Privacy and permissions](PRIVACY.md) for data handling. This notice does not grant additional rights to use, modify or redistribute the source code; the repository's licensing status is unchanged.
+
 ## What works and what does not
 
 Supported: labeled native buttons, links, button inputs, checkboxes, radio buttons and HTML controls with `role="button"`, including supported controls inside open shadow roots. Styled inputs can use their visible labels. Context helps distinguish repeated names.
