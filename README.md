@@ -61,7 +61,7 @@ SteadySelect is not intended to diagnose, treat, cure or prevent a medical condi
 
 Confirming an assisted action activates the original website control and can have the same consequences as clicking it directly. Read the selected label before confirming, especially before sending information, spending money or deleting data. Start with **Try it safely**; cancel or disable the extension if the selected target is wrong. The original website's terms and privacy practices still apply.
 
-See [Privacy and permissions](PRIVACY.md) for data handling. This notice does not grant additional rights to use, modify or redistribute the source code; the repository's licensing status is unchanged.
+See [Privacy and permissions](PRIVACY.md) for data handling and the [license](LICENSE) for permitted use.
 
 ## What works and what does not
 
@@ -107,4 +107,10 @@ The implementation was created on October 24, 2026 with OpenAI Codex, informed b
 
 Next: intended-user studies, stronger compatibility reporting, improved support for additional custom controls, and Chrome Web Store preparation. See [CHANGELOG.md](CHANGELOG.md) and [CONTRIBUTING.md](CONTRIBUTING.md).
 
-No open-source license has been selected yet. Public source is provided for review; a license should be chosen before promising broader reuse rights.
+## Ownership and license
+
+**SteadySelect is a product of its creator, [DaDocterTaco](https://github.com/DaDocterTaco). Copyright (c) 2026 DaDocterTaco.**
+
+You may download and use the unmodified extension **for free**, personally or internally at work, and make the copies needed to install, run and back it up. You may inspect the source and test it, including for hackathon judging. Share the official download link with others.
+
+The [SteadySelect Free Use License](LICENSE) does **not** permit redistribution, resale, rebranding, modified versions or reuse of its code in another product without written permission, subject to the license's legal and third-party exceptions. This is a proprietary product with publicly viewable source, not an open-source project. GitHub's public-repository viewing and forking rights still apply under its [Terms of Service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service#d-user-generated-content).

@@ -3,7 +3,7 @@
   "version": "0.1.5",
   "private": true,
   "description": "A local Chrome extension for deliberate selection of webpage controls.",
-  "license": "UNLICENSED",
+  "license": "SEE LICENSE IN LICENSE",
   "scripts": {
     "test": "node tests/run-tests.cjs",
     "test:sites": "node tests/check-normal-sites.cjs",

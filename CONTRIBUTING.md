@@ -8,4 +8,4 @@ For a bug report, include the browser/extension version, a public test URL or mi
 
 Run `npm run check` and `npm test` after a behavior change. For compatibility changes, run the relevant live-site checks and document their exact scope. Update documentation when user-visible behavior changes. Do not commit signing keys, packaged CRX files, generated harnesses, secrets or unrelated project files.
 
-A license has not yet been selected. Discuss redistribution or substantial external contributions with the owner before relying on broader reuse rights.
+The [SteadySelect Free Use License](LICENSE) permits free use of the unmodified extension and source inspection and testing. It does not grant general modification or redistribution rights. Report bugs and suggestions through the repository; contact the owner before preparing code contributions or requesting permission for modified builds, redistribution or other reuse. Third-party contributions retain their authors' rights unless separately agreed.
